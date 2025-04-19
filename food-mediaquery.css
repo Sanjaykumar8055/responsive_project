@@ -1,0 +1,380 @@
+@media only screen and (max-width:1025px){
+    .section-01 > h1{
+        font-size: 100px;
+        color: #ffc200;
+        font-weight: 400;
+        font-family: "Grand Hotel";
+    }
+    .section-01 > p{
+        width: 120%;
+        font-size: 20px;
+    }
+    .section>:nth-child(4),
+    .section>:nth-child(9),
+    .section>:nth-child(6){
+        display: none;
+    }
+    .anim{
+        margin-top: 50px;
+        width: 200px;
+        height: 45px;
+    }   
+    .section-one-03{
+        gap: 20px;
+    }
+    .sec-one-03{
+        width: 440px;
+        height: 440px;
+        border-radius: 50%;
+    }
+    .section-one{
+        padding: 20px;
+    }
+    .section-two-02 > div{
+        width: 180px;
+        height: 180px;
+        border-radius: 117px;
+        position: relative;
+    }
+    .section-two-02 > div:hover::before{
+        width: 180px;
+        height: 180px;
+    }
+    .section-three{
+        padding: 25px 25px 12px 25px;
+        position: relative;
+    }
+    .three-01 >h1{
+        font-size: 80px;
+    }
+    .three-01 >p{
+        font-size: 23px;
+    }
+    .section-three >img{
+        width: 141%;
+    }
+    .three-01{
+        gap: 5px;
+    }
+    .four-02 >p{
+        width: 90%;
+        font-size: 33px;
+    }
+    .section-five div > input{
+        width: 400px;
+    }
+    .footer{
+        padding: 10px;
+        font-weight: 200;
+    }
+}
+@media only screen and (max-width:821px) and (min-width:768px){
+    .navbar > ul{
+        gap: 20px;
+    }
+    .section-01{
+        width: 50%;
+        position: absolute;
+        left: 20%;
+    }
+    .section-01 > p{
+        font-size: 30px;
+    }
+    .sec-img2{
+        position: absolute;
+        right: 10px;
+    }
+    .sec-img1{
+        margin-left: -160px;
+    }
+    .sec-one-03{
+        width: 400px;
+        height: 400px;
+        border-radius: 50%;
+    }
+    .sec-one-032 >h1{
+        font-size: 50px;
+    }
+    
+    .section-two-02 > div{
+        width: 130px;
+        height: 130px;
+    }
+    .section-two-02 > div:hover::before{
+        width: 140px;
+        height: 140px;
+    }
+    .section-two-02 div >h1{
+        font-size: 45px;
+    }
+    .section-two-02 div >h2{
+        font-size: 20px;
+    }
+    .section-three >img{
+        width: 171%;
+    }
+    .section-five  > p{
+        width: 100%;
+    }
+    .section-five div > input{
+        width: 200px;
+        height: 40px;
+    }
+    .section-five div >button{
+        height: 40px;
+        width: 60px;
+        font-size: 10px;
+    }
+    .foot1 > p{
+        font-size: 15px;
+        line-height: 20px;
+        color: #ffffff;
+        font-weight: 100;
+        font-family: "Montserrat";
+    }
+    footer{
+        padding: 5px;
+    }   
+}
+@media only screen and (max-width:768px){
+    .navbar > ul{
+        gap:30px;
+        margin-left: 50px;
+    }
+    .sec-img2{
+        position: absolute;
+        right: 10px;
+    }
+    .sec-img1{
+        margin-left: -160px;
+    }
+    .section-01 > h1{
+        font-size: 70px;
+    }
+    .section>:nth-child(5),
+    .section>:nth-child(7){
+        display: none;
+    }
+    .sec-one-03{
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        margin-top: -100px;
+    }
+    .sec-one-03 > img{
+        height: 350px;
+    }
+    .sec-one-032 >h1{
+        font-size: 80px;
+    }
+    .section-two-02 > div{
+        width: 132px;
+        height: 132px;
+    }
+    .section-two-02 > div:hover::before{
+        width: 129px;
+        height: 129px;
+    }
+    .section-two-02 div >h1{
+        font-size: 45px;
+    }
+    .section-two-02 div >h2{
+        font-size: 20px;
+    }
+    .three-01 >h1 {
+        font-size: 60px;
+    }
+    .three-02 >div{
+        height: 300px;
+        width: 300px;
+    }
+    .three-02 >div >img{
+        height: 350px;
+    }
+    .section-five{
+        padding: 100px 140px 180px 140px;
+    }    
+    .section-five >p{
+        width: 100%;
+    }
+    .section-five div > input{
+        width: 280px;
+        height: 40px;
+    }
+    .section-five div >button{
+        height: 40px;
+        width: 60px;
+        font-size: 10px;
+    }
+    footer{
+        padding: 10px;
+    }
+    .foot1 > p{
+        font-size: 20px;
+        font-weight: 00;
+    }    
+}
+@media only screen and (max-width:601px){
+    .navbar > ul{
+        display: flex;
+        gap: 40px;
+        flex-direction: column;
+        position: absolute;
+        right: 10px;
+        top: 20px;
+        z-index: 1;
+    }
+    .navbar{
+        padding: 10px;
+    }
+    .section-01{
+        width: 60%;
+        text-align: left;
+        left: 20%;
+    }
+    .sec-img2{
+        margin: -100px;
+        top: -70px;
+    }
+    .sec-img1{
+        margin-left: -260px;
+    }
+    .section{
+        overflow: hidden;
+    }
+    .section-one-02{
+        display: flex;    
+        flex-direction: column;
+        gap: 20px;
+    }
+    .section-one >img{
+        height: 700px;
+        position: absolute;
+        left: -100px;
+        bottom: -180px;
+    }
+    .sec-one-032{
+        width: 65%;
+    }
+    .sec-one-032 > h1{
+        font-size: 60px;
+        font-weight: 400;
+    }
+    .sec-one-032 > p{
+        font-size: 25px;
+        width: 80%;
+    }
+    .sec-one-03{
+        width: 230px;
+        height: 230px;
+        border-radius: 50%;
+        margin-top: 10px;
+    }
+    .sec-one-03 > img{
+        height: 230px;
+    }
+    .section-two{
+        padding: 160px 30px 160px 30px;
+    }
+    .section-two-02{
+        padding: 0px;
+    }
+    .section-three >img{
+        width: 220%;
+    }
+    .section-two > :nth-child(4){
+        display: none;
+    }
+    .section-five{
+        padding: 100px 80px 180px 80px;
+    }    
+    footer{
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 5px;
+        padding: 50px;
+    }
+    .foot1 ,.foot2, .foot3,.foot4{
+        width: 90%;
+    }
+    .foot3 > ul >li, .foot2 > ul >li, .foot4 > ul >li {
+        font-size: 20px;
+        line-height: 25px;
+        font-weight: 200;
+    }
+    .icon{
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+    }
+}
+@media only screen and (max-width:431px){
+    .navbar > ul{
+        display: none;
+    }
+    .section{
+        overflow: hidden;
+    }
+    .section>:nth-child(10){
+        display: none;
+    }
+    .sec-img2{
+         right: -120px;
+    }
+    .sec-img1{
+        margin-left: -260px;
+    }
+    .section-one-03{
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .sec-one-032{
+        width: 70%;
+    }
+    .section-one >img{
+        position: absolute;
+        left: -380px;
+        bottom: -50px;
+    }
+    .section-two-02{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .section-three{
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+    .three-01 >h1{
+        font-size: 70px;
+        text-align: center;
+    }
+    .three-01{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center ;
+    }
+    .section-three >img{
+        height: 260%;
+        margin-top: -180px;
+
+    }
+    .three-01 > p{
+        color: blue;
+    }
+    .section-five{
+        padding: 50px 40px 90px 40px;
+    } 
+    .icon > div{
+        height: 20px;
+        width: 20px;
+        font-size: 15px;
+    }
+}
